@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman';
+    font-family: sans-serif;
+
 }
+
+
+/* */
 
 .hero {
     position: relative;
@@ -10,6 +14,8 @@
     width: 100%;
     background: white;
 }
+
+/* the sections below are for styling my navigation page */
 
 nav {
     display: flex;
@@ -21,6 +27,7 @@ nav {
 }
 
 nav ul li {
+    font-size: x-large;
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
@@ -37,17 +44,97 @@ nav ul li a:hover {
     color: gold
 }
 
-
+/* These sections below style my home page bio/intro */
 .intro {
     margin-top: auto;
     margin-left: auto;
 }
 
 .intro h1 {
-    font-size: xx-large;
+    font-size: 75px;
     color: black;
 }
 
-.intro span {
-    color: lightslategray;
+.intro h2 {
+    font-size: 50px;
+    color: red;
+
+}
+
+.intro p {
+    font-size: 30px;
+    position: absolute;
+    justify-content: center;
+    color: rgb(21, 19, 19);
+}
+
+
+.class_bio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+
+
+/* These sections below are for my animated logo */
+.profile_pic {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.profile_pic .logo {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+
+.profile_pic:hover .logo {
+    left: 45%;
+}
+
+
+
+.about_me h1 {
+    font-size: 75px;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+}
+
+.about_me h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about_me p {
+    font-size: x-large;
+}
+
+
+
+.umbc {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.class_bio h1 {
+    font-size: 30px;
+}
+
+.class_bio p {
+    font-size: larger;
+}
+
+.class_bio ul li {
+    font-size: larger;
 }
